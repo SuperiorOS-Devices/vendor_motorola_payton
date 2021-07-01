@@ -8,6 +8,7 @@ soong_namespace {
 cc_prebuilt_library_shared {
 	name: "libthermalclient",
 	owner: "motorola",
+    shared_libs: ["libc++", "libc", "libcutils", "libdl", "liblog", "libm"],
 	strip: {
 		none: true,
 	},

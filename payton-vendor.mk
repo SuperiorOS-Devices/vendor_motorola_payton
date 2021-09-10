@@ -580,6 +580,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/system/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/motorola/payton/proprietary/system/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/motorola/payton/proprietary/system/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
+    vendor/motorola/payton/proprietary/system/lib64/libadaptlaunch.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadaptlaunch.so \
+    vendor/motorola/payton/proprietary/system/lib64/libappclassifier.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libappclassifier.so \
+    vendor/motorola/payton/proprietary/system/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblearningmodule.so \
+    vendor/motorola/payton/proprietary/system/lib64/libgameoptfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgameoptfeature.so \
     vendor/motorola/payton/proprietary/system/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/motorola/payton/proprietary/system/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
     vendor/motorola/payton/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
